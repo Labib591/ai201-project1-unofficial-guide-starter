@@ -11,25 +11,32 @@
 
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
 
+This system covers the full unofficial student experience at NJIT — the practical, on-the-ground knowledge that incoming freshmen need to actually navigate college life. 
+
+Incoming freshmen don't need another brochure — they need honest answers to questions like "Is Cypress Hall worth it or should I try to get into Martinson?" or "Is Professor X actually as tough as people say?"
+
+Demo Questions-
+     1. Is on-campus housing at NJIT worth it for freshmen?
+     2. Which professors get the best reviews for CS courses?
+     3. How does dining work and is the meal plan required?
+     4. What's it like living in Harrison vs. on campus?
+     5. What do students say about internship and career outcomes?
 ---
 
-## Documents
+## Document Sources
 
-<!-- List your specific sources: URLs, subreddit names, forum threads, or file descriptions.
-     Aim for at least 10 sources that together cover different subtopics or perspectives within your domain. -->
-
-| # | Source | Description | URL or location |
-|---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| # | Source | Type | URL or file path |
+|---|--------|------|-----------------|
+| 1 | Rate My Professors — NJIT School Page | Student reviews (professor ratings) | https://www.ratemyprofessors.com/school/668 |
+| 2 | Niche — NJIT General Reviews | Student reviews (overall experience) | https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/ |
+| 3 | Niche — NJIT Academics Page | Student reviews (courses & faculty) | https://www.niche.com/colleges/new-jersey-institute-of-technology/academics/ |
+| 4 | Niche — NJIT Campus Life Page | Student reviews + survey data (dorms, food, safety, social) | https://www.niche.com/colleges/new-jersey-institute-of-technology/campus-life/ |
+| 5 | Niche — NJIT Graduate Reviews | Student reviews (grad student perspective) | https://www.niche.com/graduate-schools/new-jersey-institute-of-technology/reviews/ |
+| 6 | Collegedunia — NJIT Student Reviews | Student reviews (international & grad perspective) | https://s3.collegedunia.com/usa/university/1750-new-jersey-institute-of-technology-newark/reviews |
+| 7 | NJIT Official Residence Halls Page | Official documentation (dorm options & amenities) | https://www.njit.edu/life/residence-halls |
+| 8 | NJIT Residence Life FAQ | Official documentation (housing policy & procedures) | https://www.njit.edu/reslife/faq.php |
+| 9 | NJIT Career Development Services | Official documentation (internships, Handshake, career fairs) | https://www.njit.edu/careerservices/ |
+| 10 | Patch — "Inside Colleges: NJIT" | Journalistic/community perspective (campus overview, safety, Newark context) | https://patch.com/new-jersey/bridgewater/bp--inside-colleges-new-jersey-institute-of-technology |
 
 ---
 
