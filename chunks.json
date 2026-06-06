@@ -959,6 +959,127 @@
     }
   },
   {
+    "id": "12_njit_meal_plan::0",
+    "text": "Meal Plan Requirement and Tech Bucks\nFirst year and Sophomores (by credit hour) living on campus are required to have a meal plan, selecting from plans A-E. Tech Bucks work like a debit card, with purchases deducted from your balance, and may be used at all on-campus Gourmet Dining eateries. Tech Bucks carry over from the fall to spring semester but not from spring to fall; you must use all Tech Bucks by the last day of exams or you forfeit them. Rates are per person per semester (academic year 2025-2026) and are updated for the upcoming academic year by the end of July.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Meal Plan Rates",
+      "url": "https://www.njit.edu/reslife/meal-plan-rates",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "12_njit_meal_plan::1",
+    "text": "First Year and Sophomore Resident Dining Plans\nAll first-year and sophomore plans include continuous unlimited dining and 10 guest entries. A Plan ($0 Tech Bucks): $2,440 per semester. B Plan ($100 Tech Bucks): $2,540 per semester. C Plan ($200 Tech Bucks): $2,640 per semester. D Plan ($400 Tech Bucks): $2,840 per semester. E Plan ($600 Tech Bucks): $3,040 per semester.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Meal Plan Rates",
+      "url": "https://www.njit.edu/reslife/meal-plan-rates",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "12_njit_meal_plan::2",
+    "text": "Upper-Class Dining Plans\nAvailable to juniors, seniors, graduate students, and commuters. F Plan (80 anytime meals per semester, 5 guest entries, $400 Tech Bucks): $1,615 per semester. G Plan ($1,414 Tech Bucks): $1,414 per semester. H Plan (80 anytime meals per semester, 5 guest entries, $0 Tech Bucks): $1,215 per semester. J Plan (commuter meal plan, 5 meals per week, breakfast and/or lunch only): $950 per semester.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Meal Plan Rates",
+      "url": "https://www.njit.edu/reslife/meal-plan-rates",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "13_njit_room_cost::0",
+    "text": "Cypress Hall Room Rates\nRates are per person per semester for academic year 2025-2026. Double Room: $5,174. Double Room with Private Bathroom: $5,302. Single Room with Shared Bathroom: $6,052. Single Room with Private Bathroom: $6,437.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Residence Hall Room Rates",
+      "url": "https://www.njit.edu/reslife/rates.php",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "13_njit_room_cost::1",
+    "text": "Martinson Hall (Honors) Room Rates\nRates per person per semester. Double Room: $5,313. Double Room with Private Bathroom: $5,452. Single Room with Shared Bathroom: $6,212. Single Room with Private Bathroom: $6,577.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Residence Hall Room Rates",
+      "url": "https://www.njit.edu/reslife/rates.php",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "13_njit_room_cost::2",
+    "text": "Laurel Hall Room Rates\nRates per person per semester. Double Room: $5,174. Double Room with Private Bathroom: $5,302. C Single Room with Shared Bathroom: $5,934. Single Room with Shared Bathroom: $6,052. Single Room with Private Bathroom: $6,437.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Residence Hall Room Rates",
+      "url": "https://www.njit.edu/reslife/rates.php",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "13_njit_room_cost::3",
+    "text": "Redwood Hall Room Rates\nRates per person per semester. Double Room: $4,949. Single Room: $5,688.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Residence Hall Room Rates",
+      "url": "https://www.njit.edu/reslife/rates.php",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "13_njit_room_cost::4",
+    "text": "Greek Village Room Rates\nRates per person per semester. Rented Units Double Room: $5,313. Owned Units Double Room: $5,174.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Residence Hall Room Rates",
+      "url": "https://www.njit.edu/reslife/rates.php",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "13_njit_room_cost::5",
+    "text": "Maple Hall Apartment Rates\nRates per person per semester. Studio Apartment (Private): $9,548. 1 Bedroom 1 Bathroom Apartment (Double): $7,431. 2 Bedrooms 1 Bathroom Apartment (Private): $8,026. 2 Bedroom 2 Bathroom Apartment (Double): $6,538. 4 Bedroom 2 Bathroom Apartment (Private): $7,927.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Residence Hall Room Rates",
+      "url": "https://www.njit.edu/reslife/rates.php",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "13_njit_room_cost::6",
+    "text": "Talbott Apartments Room Rates\nRates per person per semester. Double Room: $5,617. Single Room: $6,001.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Residence Hall Room Rates",
+      "url": "https://www.njit.edu/reslife/rates.php",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "13_njit_room_cost::7",
+    "text": "Twelve-Month Housing Contracts\nTwelve-month housing contracts, covering winter and summer breaks, cost an extra $1,200 per semester (totaling $2,400) and end July 31 if you are not renewing your housing contract. Contract changes are due by December 31 each year. Rates are updated for the upcoming academic year by the end of July or beginning of August.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Residence Hall Room Rates",
+      "url": "https://www.njit.edu/reslife/rates.php",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
     "id": "10_patch_inside_njit::0",
     "text": "New Jersey Institute of Technology (NJIT) is located on 45 acres, a few square blocks, in the University Heights section of Newark, NJ. There is a light rail station next to campus which goes to Newark Penn Station. There is a limited amount of green space on campus.",
     "metadata": {

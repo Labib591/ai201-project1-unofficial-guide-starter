@@ -82,6 +82,22 @@
       "strategy": "heading"
     },
     {
+      "file": "12_njit_meal_plan.txt",
+      "source": "njit_official",
+      "source_name": "NJIT Meal Plan Rates",
+      "url": "https://www.njit.edu/reslife/meal-plan-rates",
+      "content_type": "policy",
+      "strategy": "heading"
+    },
+    {
+      "file": "13_njit_room_cost.txt",
+      "source": "njit_official",
+      "source_name": "NJIT Residence Hall Room Rates",
+      "url": "https://www.njit.edu/reslife/rates.php",
+      "content_type": "policy",
+      "strategy": "heading"
+    },
+    {
       "file": "10_patch_inside_njit.txt",
       "source": "patch",
       "source_name": "Patch - Inside Colleges: NJIT",

@@ -29,11 +29,12 @@ Incoming freshmen don't need another brochure — they need honest answers to qu
 | 3 | Niche — NJIT Academics Page | Student reviews (courses & faculty) | https://www.niche.com/colleges/new-jersey-institute-of-technology/academics/ |
 | 4 | Niche — NJIT Campus Life Page | Student reviews + survey data (dorms, food, safety, social) | https://www.niche.com/colleges/new-jersey-institute-of-technology/campus-life/ |
 | 5 | Niche — NJIT Graduate Reviews | Student reviews (grad student perspective) | https://www.niche.com/graduate-schools/new-jersey-institute-of-technology/reviews/ |
-| 6 | Collegedunia — NJIT Student Reviews | Student reviews (international & grad perspective) | https://s3.collegedunia.com/usa/university/1750-new-jersey-institute-of-technology-newark/reviews |
-| 7 | NJIT Official Residence Halls Page | Official documentation (dorm options & amenities) | https://www.njit.edu/life/residence-halls |
-| 8 | NJIT Residence Life FAQ | Official documentation (housing policy & procedures) | https://www.njit.edu/reslife/faq.php |
-| 9 | NJIT Career Development Services | Official documentation (internships, Handshake, career fairs) | https://www.njit.edu/careerservices/ |
-| 10 | Patch — "Inside Colleges: NJIT" | Journalistic/community perspective (campus overview, safety, Newark context) | https://patch.com/new-jersey/bridgewater/bp--inside-colleges-new-jersey-institute-of-technology |
+| 6 | NJIT Official Residence Halls Page | Official documentation (dorm options & amenities) | https://www.njit.edu/life/residence-halls |
+| 7 | NJIT Residence Life FAQ | Official documentation (housing policy & procedures) | https://www.njit.edu/reslife/faq.php |
+| 8 | NJIT Career Development Services | Official documentation (internships, Handshake, career fairs) | https://www.njit.edu/careerservices/ |
+| 9 | Patch — "Inside Colleges: NJIT" | Journalistic/community perspective (campus overview, safety, Newark context) | https://patch.com/new-jersey/bridgewater/bp--inside-colleges-new-jersey-institute-of-technology |
+| 10 | NJIT Meal Plan | Official Documentation | https://www.njit.edu/reslife/meal-plan-rates |
+| 11 | NJIT Room Cost | Official Documentation | https://www.njit.edu/reslife/rates.php |
 ---
 
 ## Chunking Strategy
@@ -53,7 +54,7 @@ Incoming freshmen don't need another brochure — they need honest answers to qu
 
 **Why these choices fit your documents:** The corpus mixes short opinion reviews with hierarchical policy pages, so one global chunk size would either shred the policy sections or merge unrelated reviews. Matching the strategy to each source's structure keeps every chunk a single retrievable thought.
 
-**Final chunk count:** 87 across 11 source files. Five sources were scraped directly (NJIT pages, Patch, RMP school page); the Niche general-reviews, academics, campus-life, and after-college pages returned HTTP 403, so their text was pasted in manually and cleaned. Each mixed Niche page was split into a reviews file (atomic) and a stats file (ranking), matching the stats-vs-prose chunking rule. Duplicate reviews appearing on multiple Niche pages were de-duplicated during cleaning.
+**Final chunk count:** 98 across 13 source files. Seven sources were scraped directly (NJIT pages, Patch, RMP school page); the Niche pages returned HTTP 403, and the NJIT meal-plan and room-rate tables were pasted in manually, then all were cleaned. Each mixed Niche page was split into a reviews file (atomic) and a stats file (ranking), matching the stats-vs-prose chunking rule; the rate tables were chunked by heading so each hall's full rate list stays in one chunk. Duplicate reviews appearing on multiple Niche pages were de-duplicated during cleaning.
 
 ---
 
@@ -65,9 +66,9 @@ Incoming freshmen don't need another brochure — they need honest answers to qu
      Consider: context length limits, multilingual support, accuracy on domain-specific text,
      latency, and local vs. API-hosted. -->
 
-**Model used:**
+**Model used:** `all-MiniLM-L6-v2` via `sentence-transformers` (384-dim, runs locally, no API key). Chunks are embedded with `normalize_embeddings=True` and stored in a persistent ChromaDB collection configured for **cosine** distance (`hnsw:space: cosine`), so retrieval scores land in ~[0, 1] where lower = more relevant. Each chunk is stored with its full metadata (source, source_name, url, content_type, strategy, and rating where applicable), enabling `content_type`-filtered retrieval. Default top-k = 5. Verified retrieval: all 5 evaluation queries return a top-1 chunk from the correct source with cosine distance between 0.32 and 0.46.
 
-**Production tradeoff reflection:**
+**Production tradeoff reflection:** MiniLM wins here on speed and zero cost. If cost weren't a constraint I'd weigh a larger model (e.g. `text-embedding-3-large` or a BGE/E5 model) on four axes: **domain accuracy** (bigger models capture nuance in slangy reviews that MiniLM flattens), **context length** (policy chunks can exceed MiniLM's ~256-token window and get truncated), **multilingual support** (some international-student reviews would benefit from a multilingual model), and **latency** (an API model adds round-trips MiniLM avoids locally). For a real deployment I'd move to a larger-context, domain-tuned model and accept the added cost/latency for better retrieval on policy pages and multilingual reviews.
 
 ---
 

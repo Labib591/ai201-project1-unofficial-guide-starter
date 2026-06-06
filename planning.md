@@ -32,13 +32,12 @@ Demo Questions-
 | 3 | Niche — NJIT Academics Page | Student reviews (courses & faculty) | https://www.niche.com/colleges/new-jersey-institute-of-technology/academics/ |
 | 4 | Niche — NJIT Campus Life Page | Student reviews + survey data (dorms, food, safety, social) | https://www.niche.com/colleges/new-jersey-institute-of-technology/campus-life/ |
 | 5 | Niche — NJIT Graduate Reviews | Student reviews (grad student perspective) | https://www.niche.com/graduate-schools/new-jersey-institute-of-technology/reviews/ |
-| 6 | Collegedunia — NJIT Student Reviews | Student reviews (international & grad perspective) | https://collegedunia.com/usa/university/1750-new-jersey-institute-of-technology-newark |
-| 7 | NJIT Official Residence Halls Page | Official documentation (dorm options & amenities) | https://www.njit.edu/life/residence-halls |
-| 8 | NJIT Residence Life FAQ | Official documentation (housing policy & procedures) | https://www.njit.edu/reslife/faq.php |
-| 9 | NJIT Career Development Services | Official documentation (internships, Handshake, career fairs) | https://www.njit.edu/careerservices/ |
-| 10 | Patch — "Inside Colleges: NJIT" | Journalistic/community perspective (campus overview, safety, Newark context) | https://patch.com/new-jersey/bridgewater/bp--inside-colleges-new-jersey-institute-of-technology |
-| 11 | NJIT Meal Plan | Official Documentation | https://www.njit.edu/reslife/meal-plan-rates |
-| 12 | NJIT Room Cost | Official Documentation | https://www.njit.edu/reslife/rates.php |
+| 6 | NJIT Official Residence Halls Page | Official documentation (dorm options & amenities) | https://www.njit.edu/life/residence-halls |
+| 7 | NJIT Residence Life FAQ | Official documentation (housing policy & procedures) | https://www.njit.edu/reslife/faq.php |
+| 8 | NJIT Career Development Services | Official documentation (internships, Handshake, career fairs) | https://www.njit.edu/careerservices/ |
+| 9 | Patch — "Inside Colleges: NJIT" | Journalistic/community perspective (campus overview, safety, Newark context) | https://patch.com/new-jersey/bridgewater/bp--inside-colleges-new-jersey-institute-of-technology |
+| 10 | NJIT Meal Plan | Official Documentation | https://www.njit.edu/reslife/meal-plan-rates |
+| 11 | NJIT Room Cost | Official Documentation | https://www.njit.edu/reslife/rates.php |
 
 ---
 
@@ -116,7 +115,7 @@ of students agree that the alumni network is very strong and 80%
 of students feel the career center was helpful in finding them a job or internship.87%
 of students feel confident they will find a job in their field after graduation. |
 | 3 | How are the academic and recreational facilities at NJIT? | Campus facilities at NJIT include modern resources such as advanced engineering labs, makerspaces with 3D printers, a wellness and events center, and libraries with quiet study areas. While students appreciate these academic and recreational spaces, some note that certain buildings and facilities could benefit from maintenance and upgrades, such as cleaner bathrooms and improved dining options. |
-| 4 | What is the cost to live on campus? | Depends on the hall you're living in. On avareage a Double Room costs {avaerage of cost}. |
+| 4 | What is the cost to live on campus? | Depends on the hall. Per person/semester (2025-2026): a standard Double Room runs roughly $4,949 (Redwood) to $5,313 (Martinson/Greek), about $5,170 on average; private/single rooms and Maple/Talbott apartments cost more ($6,000-$9,548). |
 | 5 | How do I look for a job on campus? | Contact or visit the Student Financial Aid Services Office in the Student Mall for information about job opportunities on campus. Residence Life also hires many students. See the Employment Opportunities section for the positions we offer. |
 
 ---
