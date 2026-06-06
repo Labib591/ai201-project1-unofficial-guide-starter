@@ -45,13 +45,15 @@ Incoming freshmen don't need another brochure — they need honest answers to qu
      - Any preprocessing you did before chunking (e.g., stripping HTML, removing headers)
      - What your final chunk count was across all documents -->
 
-**Chunk size:**
+**Chunk size:** Per-source, not one fixed size (see planning.md > Chunking Strategy). Reviews = one review per chunk (atomic); NJIT policy pages = one section per `#` heading; Patch prose = paragraph chunks merged to a ~200-char minimum; job postings (when added) = fixed 512-token window. Observed chunk sizes: 95–513 chars, ~277 avg.
 
-**Overlap:**
+**Overlap:** ~50 tokens on the fixed-size strategy only. The atomic, heading, and paragraph strategies split on natural boundaries (a whole review, a whole section) so no overlap is needed.
 
-**Why these choices fit your documents:**
+**Preprocessing before chunking:** Each source file runs through `src/clean.py` — strips HTML + boilerplate tags (nav/footer/script), decodes HTML entities (`&amp;`, `&#39;`, non-breaking spaces), drops cookie/share/"read more" boilerplate lines, and normalizes whitespace. HTML `<h1>`–`<h6>` are converted to `#` markers so the heading chunker still sees section boundaries.
 
-**Final chunk count:**
+**Why these choices fit your documents:** The corpus mixes short opinion reviews with hierarchical policy pages, so one global chunk size would either shred the policy sections or merge unrelated reviews. Matching the strategy to each source's structure keeps every chunk a single retrievable thought.
+
+**Final chunk count:** 87 across 11 source files. Five sources were scraped directly (NJIT pages, Patch, RMP school page); the Niche general-reviews, academics, campus-life, and after-college pages returned HTTP 403, so their text was pasted in manually and cleaned. Each mixed Niche page was split into a reviews file (atomic) and a stats file (ranking), matching the stats-vs-prose chunking rule. Duplicate reviews appearing on multiple Niche pages were de-duplicated during cleaning.
 
 ---
 

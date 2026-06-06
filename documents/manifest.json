@@ -1,0 +1,93 @@
+{
+  "_comment": "Maps each source file in documents/ to its metadata and chunking strategy. To add a blocked source (Niche, Collegedunia), paste its text into a .txt file here and add an entry below. strategy: atomic | paragraph | heading | fixed",
+  "sources": [
+    {
+      "file": "01_rmp_njit_reviews.txt",
+      "source": "rate_my_professor",
+      "source_name": "Rate My Professors - NJIT School Page",
+      "url": "https://www.ratemyprofessors.com/school/668",
+      "content_type": "review",
+      "strategy": "atomic"
+    },
+    {
+      "file": "02_niche_academic_page.txt",
+      "source": "niche",
+      "source_name": "Niche - NJIT Academics Page (reviews)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/academics/",
+      "content_type": "review",
+      "strategy": "atomic"
+    },
+    {
+      "file": "03_niche_academic_stats.txt",
+      "source": "niche",
+      "source_name": "Niche - NJIT Academics Page (stats)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/academics/",
+      "content_type": "ranking",
+      "strategy": "paragraph"
+    },
+    {
+      "file": "04_niche_campus_life.txt",
+      "source": "niche",
+      "source_name": "Niche - NJIT Campus Life Page (reviews)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/campus-life/",
+      "content_type": "review",
+      "strategy": "atomic"
+    },
+    {
+      "file": "05_niche_campus_life_stats.txt",
+      "source": "niche",
+      "source_name": "Niche - NJIT Campus Life Page (stats)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/campus-life/",
+      "content_type": "ranking",
+      "strategy": "paragraph"
+    },
+    {
+      "file": "06_niche_after_college_stats.txt",
+      "source": "niche",
+      "source_name": "Niche - NJIT After College / Value Page (stats)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/after-college/",
+      "content_type": "ranking",
+      "strategy": "paragraph"
+    },
+    {
+      "file": "11_niche_reviews.txt",
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic"
+    },
+    {
+      "file": "07_njit_residence_halls.txt",
+      "source": "njit_official",
+      "source_name": "NJIT Official Residence Halls Page",
+      "url": "https://www.njit.edu/life/residence-halls",
+      "content_type": "policy",
+      "strategy": "heading"
+    },
+    {
+      "file": "08_njit_reslife_faq.txt",
+      "source": "njit_official",
+      "source_name": "NJIT Residence Life FAQ",
+      "url": "https://www.njit.edu/reslife/faq.php",
+      "content_type": "policy",
+      "strategy": "heading"
+    },
+    {
+      "file": "09_njit_career_services.txt",
+      "source": "njit_official",
+      "source_name": "NJIT Career Development Services",
+      "url": "https://www.njit.edu/careerservices/",
+      "content_type": "policy",
+      "strategy": "heading"
+    },
+    {
+      "file": "10_patch_inside_njit.txt",
+      "source": "patch",
+      "source_name": "Patch - Inside Colleges: NJIT",
+      "url": "https://patch.com/new-jersey/bridgewater/bp--inside-colleges-new-jersey-institute-of-technology",
+      "content_type": "ranking",
+      "strategy": "paragraph"
+    }
+  ]
+}

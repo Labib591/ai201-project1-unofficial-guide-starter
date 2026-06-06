@@ -1,0 +1,1005 @@
+[
+  {
+    "id": "01_rmp_njit_reviews::0",
+    "text": "The area around is great. There's light rail nearby, bus stop nearby so transport is no question and you can go downtown or even to Journal Square for chilling out.",
+    "metadata": {
+      "source": "rate_my_professor",
+      "source_name": "Rate My Professors - NJIT School Page",
+      "url": "https://www.ratemyprofessors.com/school/668",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 3.9
+    }
+  },
+  {
+    "id": "01_rmp_njit_reviews::1",
+    "text": "Great, affordable university with a decent reputation with local industries. The food and social life is subpar, but you will find what you want if you look. Management on average can be mediocre, but the campus is mostly safe due to the many public safety officers on patrol. You are only a light rail + train ride away from NYC.",
+    "metadata": {
+      "source": "rate_my_professor",
+      "source_name": "Rate My Professors - NJIT School Page",
+      "url": "https://www.ratemyprofessors.com/school/668",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 3.4
+    }
+  },
+  {
+    "id": "01_rmp_njit_reviews::2",
+    "text": "Awesome University. The professors care about your success and there are tons of resources if you actually use them.",
+    "metadata": {
+      "source": "rate_my_professor",
+      "source_name": "Rate My Professors - NJIT School Page",
+      "url": "https://www.ratemyprofessors.com/school/668",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 5.0
+    }
+  },
+  {
+    "id": "01_rmp_njit_reviews::3",
+    "text": "A lot of clubs for hobbies, help, and professional connections. If you search, you will find somewhere you belong here. The education is great, but it can get really tough. It wouldn't be a tech school without highs and lows.",
+    "metadata": {
+      "source": "rate_my_professor",
+      "source_name": "Rate My Professors - NJIT School Page",
+      "url": "https://www.ratemyprofessors.com/school/668",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 4.2
+    }
+  },
+  {
+    "id": "01_rmp_njit_reviews::4",
+    "text": "Solid engineering programs and good co-op opportunities, but be ready to work hard. Newark grows on you and the commute to NYC is a big plus for internships.",
+    "metadata": {
+      "source": "rate_my_professor",
+      "source_name": "Rate My Professors - NJIT School Page",
+      "url": "https://www.ratemyprofessors.com/school/668",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 3.8
+    }
+  },
+  {
+    "id": "02_niche_academic_page::0",
+    "text": "Civil engineering, Junior. My overall experience at NJIT has been positive. As a civil engineering student, I've had the opportunity to learn from knowledgeable professors and take classes that connect well to real-world engineering and construction work. I also like how diverse the campus is because it allows you to meet people from many different backgrounds. NJIT provides good opportunities for internships, networking, and career growth, especially through career fairs and student organizations. One thing I would like to see improve is campus life and student stress support, since engineering courses can become very demanding and overwhelming at times. Overall, NJIT has helped me grow academically, professionally, and personally.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT Academics Page (reviews)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/academics/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 5.0
+    }
+  },
+  {
+    "id": "02_niche_academic_page::1",
+    "text": "Forensic Science, Junior, international student. My experience studying at NJIT was challenging, yet immensely rewarding. As a Forensic Science major, I constantly faced rigorous academic demands - complex coursework, laboratory assignments, and research projects - but it was precisely these challenges that helped me grow as a professional and build self-confidence. NJIT provided opportunities to connect with supportive faculty, network with industry professionals, participate in student organizations, and gain real-world experience through on-campus employment and research. As an international student, adapting was not always easy, and balancing studies, work, and personal life could be stressful; nevertheless, thanks to the diverse and inclusive student community, I felt comfortable and at home.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT Academics Page (reviews)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/academics/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 5.0
+    }
+  },
+  {
+    "id": "02_niche_academic_page::2",
+    "text": "Engineering, Junior. My overall experience with NJIT has been challenging but very rewarding, especially as an engineering student. The university has a strong focus on technical education, and that shows in both the coursework and the expectations from professors. Academically, NJIT pushes you to really understand concepts rather than just memorize them. Courses in engineering like mechanical or electrical can be intense, with a lot of problem solving, lab work, and projects. Classes such as thermodynamics, dynamics, and machine design require consistent effort, but they also help build real skills that are useful in industry. The hands-on labs and projects are one of the best parts because they connect theory to real applications. It's not the easiest path, but it prepares you well for real engineering work.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT Academics Page (reviews)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/academics/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 5.0
+    }
+  },
+  {
+    "id": "02_niche_academic_page::3",
+    "text": "Freshman. I'm having a moderately satisfied moment at NJIT. The college provides great academic resources since professors are nice and dedicated, and lectures are comprehensive and practical. I'm really into the indoor pool when I can relax, and the slightly green environment encourages me to take a walk every night. Playing pool with friends is fun, and school events help me make new friends and expand my social network. It would be nice if I could enjoy the food more, depending on the mood of the staff. The surrounding area is not as vivid as I expected in Newark, and the location is not an ideal place to hang out late at night, so be careful.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT Academics Page (reviews)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/academics/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 3.0
+    }
+  },
+  {
+    "id": "02_niche_academic_page::4",
+    "text": "Business Information Systems, Junior. As a current student majoring in Business Information Systems, my experience so far has been both academically rewarding and socially enriching. The professors are generally very dedicated and bring a lot of industry knowledge to the classroom. Most are approachable and offer helpful support during office hours, which makes a big difference when navigating challenging courses. The campus is well-maintained and continues to grow with new buildings and resources. The Wellness and Events Center (WEC) is a standout space - not just for fitness, but also for student events and activities. There are plenty of study areas around campus, including the library and common lounges, which are usually quiet and comfortable.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT Academics Page (reviews)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/academics/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 5.0
+    }
+  },
+  {
+    "id": "03_niche_academic_stats::0",
+    "text": "Academics overall grade: B+. Professors grade: A-. These grades are based on acceptance rate, quality of professors, student reviews, and faculty accomplishments.\n\nGraduation rate at NJIT is 73%. The student-faculty ratio is 13:1 and the academic calendar is semester-based.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT Academics Page (stats)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/academics/",
+      "content_type": "ranking",
+      "strategy": "paragraph"
+    }
+  },
+  {
+    "id": "03_niche_academic_stats::1",
+    "text": "Student retention: full-time retention rate is 90% and part-time retention rate is 54%.\n\nResearch funding per student at NJIT is $9,818, compared to a national average of $1,524.\n\nClass size breakdown: 37% of classes have 2-19 students, 52% have 20-39 students, 11% have 40-99 students, and 0% have 100 or more students.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT Academics Page (stats)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/academics/",
+      "content_type": "ranking",
+      "strategy": "paragraph"
+    }
+  },
+  {
+    "id": "03_niche_academic_stats::2",
+    "text": "Most popular majors by graduates: Information Science (325 graduates), Information Technology (200 graduates), and Mechanical Engineering (179 graduates).\n\nNJIT offers non-traditional learning options including evening degree programs, teacher certification, and study abroad.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT Academics Page (stats)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/academics/",
+      "content_type": "ranking",
+      "strategy": "paragraph"
+    }
+  },
+  {
+    "id": "03_niche_academic_stats::3",
+    "text": "Professor demographics: 27% of professors are female and 73% are male. The average professor salary is $213,288.\n\nFull-time faculty diversity: White 52%, Asian American 24%, International non-citizen 12%, Hispanic 5%, African American 2%, Multiracial 1%, and Unknown 4%.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT Academics Page (stats)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/academics/",
+      "content_type": "ranking",
+      "strategy": "paragraph"
+    }
+  },
+  {
+    "id": "03_niche_academic_stats::4",
+    "text": "Student polls on academics: 92% of students say they attend class, and 48% say they take advantage of office hours and study sessions.\n\nStudent polls on professors: 77% say professors are passionate about the topics they teach, 67% say professors care about their students' success, 54% say professors are engaging and easy to understand, and 71% agree professors are approachable and helpful when needed.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT Academics Page (stats)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/academics/",
+      "content_type": "ranking",
+      "strategy": "paragraph"
+    }
+  },
+  {
+    "id": "04_niche_campus_life::0",
+    "text": "Freshman. I like NJIT because it's a technology school, where almost every student is required to bring a computer for their intended degree. As a result, I feel very comfortable walking around campus and being in a classroom, since I know the college is centered around technology and I have an interest in technology too. What I would like to see changed is the campus to look more modern, such as giving old brick buildings a new colorful paint job, and to have technology stand out more, such as campus electric scooters making travel around campus more convenient.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT Campus Life Page (reviews)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/campus-life/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 5.0
+    }
+  },
+  {
+    "id": "04_niche_campus_life::1",
+    "text": "Sophomore. NJIT is a small campus compared to Rutgers Newark but it's advantageous because it is easier to go from one building to another. I really like how most buildings have a seating area kind of like a lounge. Some classrooms and lecture halls are really old and need renovation. Overall, I like the campus. It's really nice in spring when the weather is warm, and I enjoy sitting outside on the benches and eating lunch.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT Campus Life Page (reviews)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/campus-life/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 4.0
+    }
+  },
+  {
+    "id": "04_niche_campus_life::2",
+    "text": "Architecture / Digital Design, Junior. So far, my time at NJIT has been a good one. I majored in architecture my first year, then switched to digital design the second, which I plan to keep until completion in 2027. For both of my first two years I dormed on campus and I really liked doing this. The design fields are taken really seriously at NJIT, so being close to our labs and studios helped a lot. I do wish they were more transparent with the additional costs of these majors - the costs of supplies are not detailed anywhere when applying and get dropped on you a week before a project. The dorming facilities meet my standards, the food is good enough, and I feel pretty safe on campus despite the harsh name Newark has made for itself. I look forward to going back in the fall.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT Campus Life Page (reviews)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/campus-life/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 5.0
+    }
+  },
+  {
+    "id": "05_niche_campus_life_stats::0",
+    "text": "Campus life grades: Party Scene B+, Safety B+, Campus Food B, Dorms B, overall Campus C+, Student Life B. NJIT is located in Newark, NJ, a large city.\n\nHousing: on-campus housing is available and freshmen are not required to live on campus. About 22% of undergrads live in college housing. The average housing cost is $9,950 per year. In student polls, 41% say overall dorm quality is great and 46% say the dorms' social atmosphere is great.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT Campus Life Page (stats)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/campus-life/",
+      "content_type": "ranking",
+      "strategy": "paragraph"
+    }
+  },
+  {
+    "id": "05_niche_campus_life_stats::1",
+    "text": "Campus food: a meal plan is available and the average meal plan cost is $5,906 per year. When asked the best food options on campus, students said food truck (25%), GDS / Taco Bell / Subway (22%), and Giovanni's (13%). 52% of students highly rate the dining facilities.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT Campus Life Page (stats)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/campus-life/",
+      "content_type": "ranking",
+      "strategy": "paragraph"
+    }
+  },
+  {
+    "id": "05_niche_campus_life_stats::2",
+    "text": "Overall opinion of the school and campus community: 12% love everything and have a lot of campus pride, 59% like mostly everything but wish some things were different, 24% feel the community is okay and are just here for an education, and 5% have no school spirit.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT Campus Life Page (stats)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/campus-life/",
+      "content_type": "ranking",
+      "strategy": "paragraph"
+    }
+  },
+  {
+    "id": "05_niche_campus_life_stats::3",
+    "text": "Safety: 70% of students say they feel extremely safe and secure on campus. On campus police visibility, 52% say police are extremely present and willing to assist and 44% say they are there if needed but not overbearing. On peer pressure around drugs and alcohol, 47% say you can have a great social life without them and 41% say most people partake but no one judges you if you don't.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT Campus Life Page (stats)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/campus-life/",
+      "content_type": "ranking",
+      "strategy": "paragraph"
+    }
+  },
+  {
+    "id": "05_niche_campus_life_stats::4",
+    "text": "Varsity sports: 61% of students say sporting events are attended but not a huge part of campus life, while 23% say varsity sports are a big part of campus life. Men's and women's varsity sports include Basketball, Soccer, Swimming, Tennis, Fencing, Lacrosse, Volleyball, Beach Volleyball, Diving, and Track and Field.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT Campus Life Page (stats)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/campus-life/",
+      "content_type": "ranking",
+      "strategy": "paragraph"
+    }
+  },
+  {
+    "id": "05_niche_campus_life_stats::5",
+    "text": "Clubs and activities offered include Campus Ministries, Dance, Drama/Theater, Film Society, International Student Organizations, Literary Magazine, Newspaper, Radio Station, Student Government, Television Station, and Yearbook, plus music groups like Jazz Band, Musical Theater, Music Ensembles, and Pep Band.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT Campus Life Page (stats)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/campus-life/",
+      "content_type": "ranking",
+      "strategy": "paragraph"
+    }
+  },
+  {
+    "id": "05_niche_campus_life_stats::6",
+    "text": "Favorite campus events and traditions: Highlander Day (24%), Renaissance Fair (20%), formals and events hosted by clubs (18%), movie night (17%), and Midnight Breakfast before finals (12%).\n\nParty scene and Greek life: 32% of students say there are some decent frat/house parties on weekends only, 29% say \"parties? what parties?\", and 16% say there are lots of options Wednesday through Saturday. The biggest social event of the year is Theta Chi's Paint Party (23%). Only 6% of men are in fraternities and 6% of women are in sororities, and 57% say Greek life is average with no one treating you differently if you don't join.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT Campus Life Page (stats)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/campus-life/",
+      "content_type": "ranking",
+      "strategy": "paragraph"
+    }
+  },
+  {
+    "id": "06_niche_after_college_stats::0",
+    "text": "Overall value grade: A, based on average net price, earnings potential, and student and alumni reviews. In a student poll, 71% of students feel like they are getting their money's worth out of their program.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT After College / Value Page (stats)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/after-college/",
+      "content_type": "ranking",
+      "strategy": "paragraph"
+    }
+  },
+  {
+    "id": "06_niche_after_college_stats::1",
+    "text": "Graduation rate at NJIT is 73%, compared to a national average of 53%.\n\nAverage graduate income: median earnings one year after graduation are $67,467 per year (national average $36,427), rising to $89,013 per year five years after graduation (national average $45,519).",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT After College / Value Page (stats)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/after-college/",
+      "content_type": "ranking",
+      "strategy": "paragraph"
+    }
+  },
+  {
+    "id": "06_niche_after_college_stats::2",
+    "text": "Job placement: 95% of graduates are employed one year after graduation (national average 91%) and 94% are employed five years after graduation (national average 89%).\n\nCareer and alumni polls: 67% of students agree that the alumni network is very strong, and 80% of students feel the career center was helpful in finding them a job or internship.\n\nStudent debt: the average loan amount is $8,314 per year (national average $7,011), and NJIT's loan default rate is 0%, compared to a national average of 11%.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT After College / Value Page (stats)",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/after-college/",
+      "content_type": "ranking",
+      "strategy": "paragraph"
+    }
+  },
+  {
+    "id": "11_niche_reviews::0",
+    "text": "Junior. Campus is very lively, and it is easy to meet people with similar backgrounds and interests. Being involved with clubs, USOs, and/or Student Senate is quite easy and straightforward.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 4.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::1",
+    "text": "Junior. It is a great school but the nearby surroundings are not safe, so we are mostly limited to campus. Other than that, academics is really good and the professors really care about what they are teaching, though like every school there are some who do not put in effort and make the subject seem like a chore. The party scene is surprisingly really good with good nightlife, which was not my original thought when I chose NJIT. On campus I feel really safe with constant security roaming around and cars going around the roads even at 4 AM, so I feel very safe walking around campus, even though the surrounding areas are not as safe. I would like more student life during the day, since there are not as many students during the winter - more activities in the Campus Center or other buildings to get more students out.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 4.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::2",
+    "text": "Sophomore. It is a diverse school with different backgrounds, but it is very easy to find your people and the major you would like.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 5.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::3",
+    "text": "Freshman. You really can't beat NJIT's value. Very good STEM programs. Campus is in the safest part of Newark and has tons of police around.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 5.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::4",
+    "text": "Freshman. My experience with NJIT has been a mix of excitement and frustration, like it's full of potential but sometimes feels buried under too many wires and old buildings. The professors I met were passionate and knew their stuff, especially in engineering, and I liked that most classes push you to think instead of just memorize. The campus has a gritty energy that reflects Newark - not always pretty, but real and alive. I do wish there were more spots to hang out or grab food between classes, since a lot of the time you end up walking around just to find somewhere decent to study. The workload can get intense but it feels worth it if you're serious about your major. A little more flexibility or support for transfer students would make the experience smoother. Overall, it's not perfect, but if you're driven, NJIT gives you the tools to build something out of yourself.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 5.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::5",
+    "text": "Graduate Student. I loved attending NJIT in person, and I took some courses online as well, which I enjoyed. The students were respectful and it was a very diverse environment, and I even went to the fitness center when I had time. I liked my undergraduate time so much that I chose to do my graduate studies there too, joining the BS/MS program, and I will graduate with my master of science degree in electrical engineering in a few months. A few things I would improve: there should be no smoking allowed on campus to ensure a clean atmosphere, and rooms should be kept cleaner, since many times there was garbage and debris in some areas.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 4.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::6",
+    "text": "Junior. NJIT is a great campus if you like to not travel so far from one class to another. Food around campus is better than on campus. I originally went to school for biomedical engineering but changed to a business major; the process was simple and easy and I felt more at home with the change. I could join certain clubs and be more social.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 4.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::7",
+    "text": "Freshman. It's alright - you won't be insanely happy, but it's not a bad choice, especially if you get into the honors college with a full ride.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 3.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::8",
+    "text": "Graduate Student. Academics: 3/5 - the academics here are average; some professors are engaging and knowledgeable, others are hit-or-miss, so it depends on how much effort you invest. Food and Campus Facilities: 3/5 - the food is okay, edible and not too expensive, but the quality can be a letdown with the occasional undercooked meal; the campus is decent with good study areas and recreational spaces. Location: 4/5 - the surrounding area is a real plus with plenty of places to grab food off-campus. Overall Experience: 3/5 - if you want a college with a solid enough academic foundation and good surroundings, this could work, though the food and academic experience leave room for improvement.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 3.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::9",
+    "text": "Graduate Student. Completed my undergraduate here. If you are looking to get a good education and not too worried about partying or the college scene, this school is great. Professors vary from great, caring, and fun to difficult and problematic. If you stay within the campus you should have no issue, but Newark can be rough in some areas, so always be careful and aware of your surroundings. NJIT has many clubs, student organizations, and activities for fun nights, networking, and more.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 5.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::10",
+    "text": "Freshman. In NJIT there is a wide variety of activities to do when you don't have class. You have plenty of time between classes to explore the campus, make new friends, and enjoy life outside of studying.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 5.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::11",
+    "text": "Sophomore. Great college in terms of academics and sports. Overall I recommend the college for partying and getting a great education.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 4.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::12",
+    "text": "Sophomore. NJIT is a very nice university, due to its spacious campus and diverse student backgrounds. As for my experience, I would like more options in the cafeteria since I can only eat halal food. Other than that my experience was amazing.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 5.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::13",
+    "text": "Senior. My experience is really great, professors are really knowledgeable and cooperative. I grew a lot at this school.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 5.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::14",
+    "text": "Freshman. My overall experience with NJIT so far has been very limited as I just finished my orientation. However, from that alone I have felt very welcomed by the NJIT family and well instructed on what to expect during my first year.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 5.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::15",
+    "text": "Sophomore. My experience at NJIT was one of the greatest things ever. College is hard, no doubt, but even for every moment I found myself struggling I kept pushing forward thanks to NJIT, because this school accepted me and gave me the push I needed to keep moving forward. I was in it for all of it - the campus, the people I met, my professors, and the degree that will change my life. I loved every aspect of NJIT and love it even more with every experience.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 5.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::16",
+    "text": "Junior. One of my favorite things about going to school at NJIT has been the community. There are many great people full of ambition and goals, and the campus is beautiful and comforting. My only concern has been with staff at the math department.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 4.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::17",
+    "text": "Sophomore. Very competitive school. A lot of students are drowning in assignments, which causes lots of anxiety and depression, and a lot of professors are not understanding. Since it is a high-performance school, they expect students to perform well at all times, like a robot.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 3.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::18",
+    "text": "Junior. My overall experience with NJIT can be described as a rollercoaster. Some days you feel like you can't get out of bed, or you see an assignment notification and just turn away. But on other days you're given inspiration by those who surround you - not only to fulfill your academic goals, but to begin a chapter of a life you've set for yourself. That's certainly what this school has done for me, and will continue to until the day I graduate.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 4.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::19",
+    "text": "Prospective student. I have not attended NJIT yet but I will attend in the summer, and I am filled with hope. It was the cheapest college option for me. The promise of becoming a proud engineer drives me, and as I apply for scholarships I keep reminding myself of the bright future that awaits.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 3.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::20",
+    "text": "Junior. As soon as I transferred here I knew this was the place for me. The place has everything I could ever ask for - great people and professors, all the classes I want to take, and great food.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 4.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::21",
+    "text": "Freshman. I am going to be attending NJIT this fall, but I speak on accounts of others. The lack of campus life makes NJIT sad in certain aspects. However, the education itself for engineering and architecture is top notch.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 5.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::22",
+    "text": "Junior. I started my NJIT journey as a transfer student from another university out of state. Comparing the two, NJIT demonstrates more opportunities and insight into various fields that I was never exposed to at my first university. Although my journey has been about recovering the majority of credits I had to make up, I gained experience as a Materials Engineer, was exposed to the resources given to engineers, and created opportunities with faculty on future research. I would love to see NJIT continue to expand campus life and events to motivate more students to take part in something fun outside of career development.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 4.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::23",
+    "text": "Junior. My experience at NJIT has been a mix of academic challenge and personal growth; the courses are rigorous and the curriculum is preparing me for the professional world, and the education is a great value and solid return on investment. The school's proximity to NYC offers easy access to internships, cultural experiences, and networking that enrich my academic journey. However, I find limited support from professors and counselors, often navigating important decisions like academic difficulties and career planning on my own. More accessible and engaged faculty and advising staff would make a significant difference.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 4.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::24",
+    "text": "Sophomore. I like the diversity and the campus food. The campus life might not be as lively as other large schools, but that is to be expected.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 4.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::25",
+    "text": "Graduate Student. My experience at NJIT was great. My professors and fellow classmates were very helpful and supportive.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 5.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::26",
+    "text": "Sophomore. NJIT is the best college for me, in my opinion. It has given me the ability to grow as a person and become who I am. While it hasn't been easy, with multiple ups and downs with academic advisors and professors, you'll always find yourself making connections to professors and advisors who have your back and can pull strings when needed for any questions or assistance.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 5.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::27",
+    "text": "Freshman. Being a student here in my freshman year has brought numerous experiences where I've grown not just as a student but as a person. NJIT has provided a community and environment where I challenge myself socially and academically. It makes it hard to see your education as separate from your day-to-day life, because the environment encourages you to learn. My instructors have been very helpful this past year, and it's thanks to them that I earned As in my classes. You will find a community here if you keep yourself grounded in clubs of interest, whether archery, robotics, or dancing, and you get to meet people from all across the world.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 5.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::28",
+    "text": "Sophomore. I like the close-connected nature of NJIT given the size of the campus. It would be nicer to see a more active student life on the weekends, and money spent toward necessities rather than new chairs (the existing ones are fine). Cleaner bathrooms and better food are needed.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 3.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::29",
+    "text": "Junior. I am loving my time at NJIT. The classes are challenging yet exciting, and the student scene is more than I expected - making friends, going to parties, and traveling to NYC is simple. There are lots of opportunities if you know how to find them.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 5.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::30",
+    "text": "Junior (commuter). Personally, one of the bigger issues at NJIT is parking and traffic as a commuter. As many parking lots as there are, there is difficulty finding proper parking spaces within the 11 AM-1 PM range, especially in the fall semester. Other than that, NJIT is pretty good.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 4.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::31",
+    "text": "Freshman. My ongoing experience with NJIT is one to remember. I am studying Mechanical Engineering and learning my way into the world of innovation and problem solving. I enjoyed the on-campus events and spirit week activities that keep the positivity of our campus alive. What I would like to see change is more on-campus opportunities for students to apply for scholarships.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 5.0
+    }
+  },
+  {
+    "id": "11_niche_reviews::32",
+    "text": "Senior. I've enjoyed my time at NJIT so much that I am considering staying for my Master's degree. I've met a lot of amazing people and professors who have helped me learn academically and grow personally. There are so many clubs and organizations to be a part of, and there are always events happening, so you're bound to find something interesting. Great academically and socially.",
+    "metadata": {
+      "source": "niche",
+      "source_name": "Niche - NJIT General Reviews",
+      "url": "https://www.niche.com/colleges/new-jersey-institute-of-technology/reviews/",
+      "content_type": "review",
+      "strategy": "atomic",
+      "rating": 4.0
+    }
+  },
+  {
+    "id": "07_njit_residence_halls::0",
+    "text": "Redwood Hall\nRedwood Hall houses approximately 200 first-year and upper-class students in single and double rooms. Two community bathrooms are located on each floor.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Official Residence Halls Page",
+      "url": "https://www.njit.edu/life/residence-halls",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "07_njit_residence_halls::1",
+    "text": "Cypress Hall\nCypress Hall houses approximately 450 first-year and upper-class students in suite-style rooms with single and double rooms. Suites consist of two bedrooms and a shared bathroom and foyer.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Official Residence Halls Page",
+      "url": "https://www.njit.edu/life/residence-halls",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "07_njit_residence_halls::2",
+    "text": "Oak Hall\nOak Hall houses approximately 170 upper-class students in both suite-style rooms and apartments. Suite-style rooms are double occupancy with a kitchenette and shared bathroom. Each apartment has a kitchen, living room and bathroom.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Official Residence Halls Page",
+      "url": "https://www.njit.edu/life/residence-halls",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "07_njit_residence_halls::3",
+    "text": "Laurel Hall\nLaurel Hall houses approximately 570 upper-class students in single and double rooms. Each suite has a shared bathroom and foyer.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Official Residence Halls Page",
+      "url": "https://www.njit.edu/life/residence-halls",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "07_njit_residence_halls::4",
+    "text": "Maple Hall\nMaple Hall houses 548 upper-class students in 176 apartments. The building features an outdoor terrace, outdoor kitchen, firepits, an esports lounge, numerous single rooms, and kitchens with modern appliances.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Official Residence Halls Page",
+      "url": "https://www.njit.edu/life/residence-halls",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "07_njit_residence_halls::5",
+    "text": "General Information\nAll resident rooms include furnished beds, dressers, lights, desks, closet space, and chairs. Electronic card access controls entry, with 24-hour desk attendants monitoring security. Guests require valid photo ID and host accompaniment. Campus security includes 24-hour Public Safety patrols and rooftop surveillance cameras. For housing applications, visit the Residence Life office.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Official Residence Halls Page",
+      "url": "https://www.njit.edu/life/residence-halls",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "08_njit_reslife_faq::0",
+    "text": "Housing Assignment & Confirmation\nCurrent students not living on campus should submit their housing application when available. Fall applicants participate in online room selection; spring applicants receive assignments after the holiday break via NJIT email. Confirmation emails are sent through NJIT email accounts. Questions should be directed to reslife@njit.edu or 973.596.3039. Housing guarantee: We are unable to guarantee housing for the entire time you are at NJIT.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Residence Life FAQ",
+      "url": "https://www.njit.edu/reslife/faq.php",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "08_njit_reslife_faq::1",
+    "text": "Housing Costs & Occupancy\nCost information is available at the Residence Life Rates page. Approximately 2,500 students occupy six co-ed residence halls and the Greek Village.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Residence Life FAQ",
+      "url": "https://www.njit.edu/reslife/faq.php",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "08_njit_reslife_faq::2",
+    "text": "First-Year & Upper-Class Housing\nFirst-year students live in Cypress, Redwood, and Martinson Residence Hall (Honors). Upper-class students live in all buildings. All rooms feature furnishings, air conditioning, and WiFi, with common areas including lounges, study spaces, kitchens, and laundry facilities.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Residence Life FAQ",
+      "url": "https://www.njit.edu/reslife/faq.php",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "08_njit_reslife_faq::3",
+    "text": "Meal Plans & Food Services\nNJIT contracts with an independent vendor offering balanced meals including traditional hot foods, fast foods, soups, salads, deli sandwiches, and desserts. Vegetarian and vegan options are available. Tech Bucks transfer from fall to spring semester; remaining balances at semester end are non-refundable. Food service hours are available at Gourmet Dining Service's website (dineoncampus.com/NJIT).",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Residence Life FAQ",
+      "url": "https://www.njit.edu/reslife/faq.php",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "08_njit_reslife_faq::4",
+    "text": "Campus Safety & Access\nStudents use NJIT ID cards for residence hall access. Desk attendants staff entrances 24/7. All guests require valid photo identification and must be signed in by resident hosts, remaining accompanied at all times. Professional police and safety officers patrol campus continuously; rooftop surveillance cameras operate around the clock.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Residence Life FAQ",
+      "url": "https://www.njit.edu/reslife/faq.php",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "08_njit_reslife_faq::5",
+    "text": "Resident Assistants\nRAs serve as community facilitators, activities organizers, resource persons, peer counselors, administrators, disciplinarians, and friends.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Residence Life FAQ",
+      "url": "https://www.njit.edu/reslife/faq.php",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "08_njit_reslife_faq::6",
+    "text": "Roommate Assignment & Conflicts\nRoommate requests: Transfer students, new graduate students, and continuing students not participating in room selection receive roommate information in mid-July. First-year students select roommates online in June/July. Room assignment letters are sent mid-July for non-room-selection participants. Students complete roommate agreements upon move-in. Your resident assistant will be available to assist you if you have a concern or conflict.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Residence Life FAQ",
+      "url": "https://www.njit.edu/reslife/faq.php",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "08_njit_reslife_faq::7",
+    "text": "Guest Policy\nYou are allowed to have up to three guests at one time, however there are certain restrictions. Details are available in the Policies and Procedures section.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Residence Life FAQ",
+      "url": "https://www.njit.edu/reslife/faq.php",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "08_njit_reslife_faq::8",
+    "text": "On-Campus Employment\nContact the Student Financial Aid Services Office in the Student Mall for job opportunities. Residence Life also hires students; employment positions are listed on their employment page.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Residence Life FAQ",
+      "url": "https://www.njit.edu/reslife/faq.php",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "08_njit_reslife_faq::9",
+    "text": "Storage Services\nStorageSquad.com (NJIT's exclusive partner) provides free boxes, tape, and labels, with pickup, storage, and fall redelivery to student rooms.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Residence Life FAQ",
+      "url": "https://www.njit.edu/reslife/faq.php",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "08_njit_reslife_faq::10",
+    "text": "Housing Accommodations & ESAs\nDisability accommodations: NJIT's Residence Life Office, with Office of Accessibility Resources & Services (OARS) support, provides reasonable accommodations. Students must contact OARS at 973-596-5417 or oars@njit.edu with documentation from treating professionals. Emotional Support Animals prescribed by healthcare professionals as part of disability treatment require OARS approval, reviewed on a case-by-case basis by OARS in consultation with the Office of Residence Life.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Residence Life FAQ",
+      "url": "https://www.njit.edu/reslife/faq.php",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "09_njit_career_services::0",
+    "text": "Services Offered\nThe Career Development Services (CDS) provides comprehensive support including resume and cover letter assistance, career advising where students can find their career advisor for personalized guidance, interview preparation resources and workshops, structured career planning services, free professional headshots through PopCam appointment scheduling, and a Career Closet clothing resource for professional development.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Career Development Services",
+      "url": "https://www.njit.edu/careerservices/",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "09_njit_career_services::1",
+    "text": "Internships & Co-op\nThe office facilitates experiential learning opportunities through cooperative education and internship placements, on-campus interviewing programs connecting students with employers, and career fair participation for employer connections.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Career Development Services",
+      "url": "https://www.njit.edu/careerservices/",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "09_njit_career_services::2",
+    "text": "Handshake Platform\nStudents access job and internship opportunities through the Handshake portal, which also hosts appointment scheduling for services, event registration, and employer connections.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Career Development Services",
+      "url": "https://www.njit.edu/careerservices/",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "09_njit_career_services::3",
+    "text": "Career Fairs\nCDS organizes career fairs featuring employers actively recruiting NJIT graduates.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Career Development Services",
+      "url": "https://www.njit.edu/careerservices/",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "09_njit_career_services::4",
+    "text": "Employment Outcomes\nRecent graduates secured positions at major companies. One graduate noted: After graduation, I am headed to Merck & Co. for a 2 1/2 year rotational program in IT. The office publishes detailed outcome reports and starting salary data organized by major and degree type.",
+    "metadata": {
+      "source": "njit_official",
+      "source_name": "NJIT Career Development Services",
+      "url": "https://www.njit.edu/careerservices/",
+      "content_type": "policy",
+      "strategy": "heading"
+    }
+  },
+  {
+    "id": "10_patch_inside_njit::0",
+    "text": "New Jersey Institute of Technology (NJIT) is located on 45 acres, a few square blocks, in the University Heights section of Newark, NJ. There is a light rail station next to campus which goes to Newark Penn Station. There is a limited amount of green space on campus.",
+    "metadata": {
+      "source": "patch",
+      "source_name": "Patch - Inside Colleges: NJIT",
+      "url": "https://patch.com/new-jersey/bridgewater/bp--inside-colleges-new-jersey-institute-of-technology",
+      "content_type": "ranking",
+      "strategy": "paragraph"
+    }
+  },
+  {
+    "id": "10_patch_inside_njit::1",
+    "text": "NJIT is the only NJ state college with an architecture program. It is also strong in engineering and the sciences. The college has an Honors college that offers enrichment, a significant scholarship, its own housing floor, and its own space on campus. There is an engineering class that freshmen can take to help them decide on an engineering major. Clubs that have to do with your major and internships (e.g., with AT&T or PSE&G) are popular.",
+    "metadata": {
+      "source": "patch",
+      "source_name": "Patch - Inside Colleges: NJIT",
+      "url": "https://patch.com/new-jersey/bridgewater/bp--inside-colleges-new-jersey-institute-of-technology",
+      "content_type": "ranking",
+      "strategy": "paragraph"
+    }
+  },
+  {
+    "id": "10_patch_inside_njit::2",
+    "text": "Housing is limited and there are many commuters. Students who want housing seem to get it. Freshmen have a choice between a long hall building with the bathroom in the hall or a building with 2-room suites with a private bathroom for each suite. There is an Electrical Engineering floor and an Honors floor. Upper classmen can live in those buildings or in apartment style buildings. There seems to be a strong safety focus on campus. One student said, \"I wouldn't want to stray far from campus alone after dark.\"",
+    "metadata": {
+      "source": "patch",
+      "source_name": "Patch - Inside Colleges: NJIT",
+      "url": "https://patch.com/new-jersey/bridgewater/bp--inside-colleges-new-jersey-institute-of-technology",
+      "content_type": "ranking",
+      "strategy": "paragraph"
+    }
+  },
+  {
+    "id": "10_patch_inside_njit::3",
+    "text": "A NJ student who wants to study science, engineering, or architecture but wants a school smaller than Rutgers with a multi-ethnic group, doesn't mind that the school is only one quarter female, and is not too interested in social life would be happy here. A student we met in the dorm said he went to class, studied, ate and slept.",
+    "metadata": {
+      "source": "patch",
+      "source_name": "Patch - Inside Colleges: NJIT",
+      "url": "https://patch.com/new-jersey/bridgewater/bp--inside-colleges-new-jersey-institute-of-technology",
+      "content_type": "ranking",
+      "strategy": "paragraph"
+    }
+  }
+]
