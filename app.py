@@ -18,14 +18,33 @@ EXAMPLES = [
 ]
 
 
+def _format_retrieved(hits: list[dict]) -> str:
+    """Render each retrieved chunk with its cosine distance + relevance marker
+    so a viewer can see *why* the answer is (or isn't) grounded."""
+    if not hits:
+        return "_(no chunks retrieved)_"
+    lines = ["**Lower distance = more relevant. ✅ = used as context (≤0.75), ⚠️ = too weak / dropped.**\n"]
+    for i, h in enumerate(hits, 1):
+        m = h["metadata"]
+        mark = "✅" if h["distance"] <= 0.75 else "⚠️"
+        text = h["text"].replace("\n", " ")
+        snippet = text[:240] + ("…" if len(text) > 240 else "")
+        lines.append(
+            f"**{i}. {mark} distance {h['distance']:.3f} — {m['source_name']}** "
+            f"(`{m['content_type']}`)\n> {snippet}\n"
+        )
+    return "\n".join(lines)
+
+
 def handle_query(question: str):
     question = (question or "").strip()
     if not question:
-        return "Please enter a question.", ""
+        return "Please enter a question.", "", ""
     result = ask(question)
     sources = result["sources"]
     sources_md = "\n".join(f"- {s}" for s in sources) if sources else "_(no sources — question not covered by the documents)_"
-    return result["answer"], sources_md
+    retrieved_md = _format_retrieved(result.get("retrieved", []))
+    return result["answer"], sources_md, retrieved_md
 
 
 with gr.Blocks(title="The Unofficial Guide — NJIT") as demo:
@@ -37,11 +56,14 @@ with gr.Blocks(title="The Unofficial Guide — NJIT") as demo:
     inp = gr.Textbox(label="Your question", placeholder="e.g. Is the meal plan required?", lines=2)
     btn = gr.Button("Ask", variant="primary")
     answer = gr.Textbox(label="Answer", lines=8)
-    sources = gr.Markdown(label="Retrieved from")
+    gr.Markdown("### Retrieved from")
+    sources = gr.Markdown()
+    with gr.Accordion("Retrieved chunks + relevance (distance) scores", open=True):
+        retrieved = gr.Markdown()
     gr.Examples(examples=EXAMPLES, inputs=inp)
 
-    btn.click(handle_query, inputs=inp, outputs=[answer, sources])
-    inp.submit(handle_query, inputs=inp, outputs=[answer, sources])
+    btn.click(handle_query, inputs=inp, outputs=[answer, sources, retrieved])
+    inp.submit(handle_query, inputs=inp, outputs=[answer, sources, retrieved])
 
 
 if __name__ == "__main__":

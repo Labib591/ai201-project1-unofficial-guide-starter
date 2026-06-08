@@ -74,7 +74,7 @@ def ask(question: str, k: int = TOP_K) -> dict:
 
     # Relevance gate: nothing close enough -> refuse before calling the LLM.
     if not relevant:
-        return {"answer": REFUSAL, "sources": [], "chunks": hits}
+        return {"answer": REFUSAL, "sources": [], "chunks": [], "retrieved": hits}
 
     context = _format_context(relevant)
     user_msg = (
@@ -103,7 +103,8 @@ def ask(question: str, k: int = TOP_K) -> dict:
             if label not in seen:
                 seen.add(label)
                 sources.append(label)
-    return {"answer": answer, "sources": sources, "chunks": relevant}
+    return {"answer": answer, "sources": sources, "chunks": relevant,
+            "retrieved": hits}
 
 
 def main() -> None:
