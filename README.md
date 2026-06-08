@@ -97,14 +97,13 @@ Incoming freshmen don't need another brochure — they need honest answers to qu
 
 | # | Question | Expected answer | System response (summarized) | Retrieval quality | Response accuracy |
 |---|----------|-----------------|------------------------------|-------------------|-------------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | How does dining work and is the meal plan required? | Independent vendor, balanced meals; first-year & sophomores living on campus required to have a plan (A–E). | Correctly states dining runs on a meal-plan system via an independent vendor with Tech Bucks; first-year & sophomores required to pick plans A–E; upper-class plans optional. Cited the meal-plan and FAQ chunks. | Relevant (top 0.46) | **Accurate** |
+| 2 | What do students say about internship and career outcomes? | 67% say alumni network is strong, 80% say career center was helpful, ~95% employed after graduation. | Mentioned NYC proximity for internships, co-op opportunities, one Merck placement, and a review about limited faculty career support — but **missed the headline outcome stats** (95% employed, 67%/80% polls). | Partially relevant | **Partially accurate** |
+| 3 | How are the academic and recreational facilities at NJIT? | Modern labs/makerspaces, Wellness & Events Center, libraries; some maintenance/dining complaints. | Cited indoor pool, limited green space, freshman engineering class, Honors space, and food-quality complaints — captured the vibe but **missed the WEC, labs, and makerspaces** specifically. | Relevant (top 0.39) | **Partially accurate** |
+| 4 | What is the cost to live on campus? | Per person/sem: double room ≈ $4,949–$5,313 (~$5,170 avg); apartments more. | Reported Niche's aggregate average housing ($9,950/yr) + meal-plan costs + 12-month contract surcharge. Grounded and correct, but **gave the aggregate average instead of the per-hall room rates** (which were retrieved at rank 4 but not used). | Relevant (top 0.34) | **Partially accurate** |
+| 5 | How do I look for a job on campus? | Contact Student Financial Aid Services Office in the Student Mall; Residence Life also hires. | Exactly that — contact Student Financial Aid Services in the Student Mall; Residence Life hires students and posts positions. | Relevant (top 0.32) | **Accurate** |
 
-**Retrieval quality:** Relevant / Partially relevant / Off-target  
-**Response accuracy:** Accurate / Partially accurate / Inaccurate
+**Summary:** 2/5 fully accurate, 3/5 partially accurate, 0/5 inaccurate. Every answer was grounded in retrieved context with no hallucinated facts; the partial cases are retrieval-recall problems (the right chunk existed but ranked outside top-k, or a more specific chunk was retrieved but the LLM preferred a higher-ranked aggregate), not generation problems.
 
 ---
 
@@ -121,13 +120,13 @@ Incoming freshmen don't need another brochure — they need honest answers to qu
      "The embedding model treated the professor's nickname as out-of-vocabulary and returned
      results from an unrelated review" is an explanation. -->
 
-**Question that failed:**
+**Question that failed:** "What do students say about internship and career outcomes?" (Evaluation Q2)
 
-**What the system returned:**
+**What the system returned:** A grounded but incomplete answer — it cited NYC proximity for internships, co-op opportunities, one graduate's Merck placement, and a review complaining about limited faculty career support. It **omitted the headline outcome statistics** that best answer the question: 95% of graduates employed one year after graduation, 67% saying the alumni network is strong, and 80% saying the career center was helpful.
 
-**Root cause (tied to a specific pipeline stage):**
+**Root cause (tied to a specific pipeline stage): retrieval recall, not generation.** Those statistics live in a single chunk in `06_niche_after_college_stats.txt`. When I print the ranked retrieval for this query, that chunk does not appear even in the **top 10** (the top-5 cutoff stops at cosine distance ~0.61). The cause is a **vocabulary mismatch between the query and the chunk at embedding time**: the question uses the words "internship" and "career outcomes," which `all-MiniLM-L6-v2` embeds close to the *Career Development Services* policy page (literally titled "Internships & Co-op") and to review prose that says "internship." The stats chunk instead phrases the same concept as "median earnings one year after graduation," "employed one year after graduation," and "loan default rate" — lexically distant from the query, so its embedding lands farther away. Because generation is hard-limited to the retrieved context, a chunk that never gets retrieved can never be cited, so the LLM answered correctly from weaker material and the strongest evidence was invisible to it.
 
-**What you would change to fix it:**
+**What you would change to fix it:** Three options, cheapest first. (1) **Raise top-k or add a per-`content_type` retrieval pass** — fetch the best few `ranking` chunks alongside the global top-k so quantitative stats always get a seat for outcome-style questions. (2) **Query expansion / HyDE** — embed a hypothetical answer ("95% of graduates are employed…") instead of the raw question, pulling the query embedding toward stat vocabulary. (3) **Enrich the stats chunk's text at ingestion** with a natural-language lead-in ("Career and employment outcomes for graduates:") so its embedding overlaps the query vocabulary. Option (1) is the smallest change and directly addresses the recall gap.
 
 ---
 
@@ -136,9 +135,9 @@ Incoming freshmen don't need another brochure — they need honest answers to qu
 <!-- Reflect on how planning.md shaped your implementation.
      Answer both questions with at least 2–3 sentences each. -->
 
-**One way the spec helped you during implementation:**
+**One way the spec helped you during implementation:** Deciding the per-source chunking strategy in `planning.md` *before* writing code turned chunking from an open-ended problem into a simple dispatch. Because the spec already said "RMP review = atomic, Niche = paragraph/stats-split, NJIT policy = heading-based," the implementation became a `manifest.json` that tags each file with a `strategy`, plus a `chunk_text(text, strategy)` function that just routes to the matching chunker. I never had to stop and re-decide granularity mid-build, and adding each newly-collected source was a one-line manifest entry rather than new code.
 
-**One way your implementation diverged from the spec, and why:**
+**One way your implementation diverged from the spec, and why:** The spec's metadata schema assumed Rate My Professors would give per-professor reviews tagged with `professor_name`, `department`, and `difficulty`. In practice RMP's per-professor pages are JavaScript-rendered and returned HTTP 403 / empty shells to every scraping attempt, so the only RMP content I could collect was **school-level** reviews with no professor attribution. The RMP chunks therefore carry `content_type: review` and a `rating`, but not the professor/department/difficulty fields the spec imagined — which is also why the demo question "Which professors get the best reviews for CS courses?" isn't well supported by the current corpus. A second, smaller divergence: the spec's fixed-size-with-overlap strategy for "job postings" is implemented but unused, because no standalone job-board source survived collection (Career Services became a `policy` source instead).
 
 ---
 
@@ -153,14 +152,14 @@ Incoming freshmen don't need another brochure — they need honest answers to qu
      chunk_text(). It returned a function using a fixed character split. I overrode the
      chunk size from 500 to 200 because my documents are short reviews, not long guides." -->
 
-**Instance 1**
+**Instance 1 — Ingestion & chunking**
 
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
+- *What I gave the AI:* My Chunking Strategy section from `planning.md` (the per-source rules and metadata schema) plus the Document Sources table, and asked it to implement the loading + cleaning + chunking pipeline.
+- *What it produced:* `src/clean.py` (HTML/entity stripping, boilerplate removal), `src/chunk.py` with four strategies (atomic / paragraph / heading / fixed), and `src/ingest.py` driven by a `documents/manifest.json` that tags each file with its strategy and metadata.
+- *What I changed or overrode:* Several Niche pages mixed survey stats with prose reviews. Rather than chunk each page with one strategy, I directed splitting every mixed page into two files — a reviews file (`atomic`, `content_type: review`) and a stats file (`paragraph`, `content_type: ranking`) — so factual and opinion content carry different metadata. I also had it de-duplicate reviews that appeared on multiple Niche pages, which the first version did not handle and which would otherwise have double-counted ~6 reviews.
 
-**Instance 2**
+**Instance 2 — Grounded generation**
 
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
+- *What I gave the AI:* My grounding requirement (answer from retrieved context only, refuse when unsupported, cite sources) and the Retrieval Approach section.
+- *What it produced:* `src/generate.py` with a strict system prompt and a Groq `llama-3.3-70b-versatile` call, returning an answer plus sources.
+- *What I changed or overrode:* The first version relied entirely on the prompt to enforce grounding and asked the model to list its own sources. I overrode both: (1) added a **structural relevance gate** that drops chunks with cosine distance > 0.75 and returns the refusal sentence *without calling the LLM* when nothing relevant survives, so an off-topic question can't be answered from training knowledge; and (2) made the displayed source list **programmatic** — built in Python from the retrieved chunks' metadata — instead of trusting the model to cite, which guarantees attribution can't be hallucinated or dropped.
